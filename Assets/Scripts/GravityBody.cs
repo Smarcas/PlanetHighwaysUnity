@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class GravityBody : MonoBehaviour
 {
-    public static float GRAVITY_FORCE = 800;
+    public float GRAVITY_FORCE = 1600;
     
     // Creamos un vector con la dirección de la gravedad
     public Vector3 GravityDirection
@@ -34,9 +34,13 @@ public class GravityBody : MonoBehaviour
         playerRB.AddForce(GravityDirection * (GRAVITY_FORCE * Time.fixedDeltaTime), ForceMode.Acceleration);
 
         // Ajustamos la rotación del personaje para que coincida con la del planeta
-        Quaternion upRotation = Quaternion.FromToRotation(transform.up, -GravityDirection);
-        Quaternion newRotation = Quaternion.Slerp(playerRB.rotation, upRotation * playerRB.rotation, Time.fixedDeltaTime * 3f);;
-        playerRB.MoveRotation(newRotation);
+        if (GravityDirection != Vector3.zero)
+        {
+            Quaternion upRotation = Quaternion.FromToRotation(transform.up, -GravityDirection);
+            Quaternion newRotation = Quaternion.Slerp(playerRB.rotation, upRotation * playerRB.rotation, Time.fixedDeltaTime * 3f);
+            playerRB.MoveRotation(newRotation);
+        }
+
     }
 
     // Métodos que nos permiten determinar qué áreas actuan como campo de gravedad del personaje
