@@ -1,8 +1,8 @@
-# Proyecto de Juego en Unity
+# PROYECTO DE JUEGO EN UNITY
 
 Repositorio que alberga el juego en Unity para la asignatura de Programación Multimedia y Dispositivos Móviles.
 
-# Introducción
+# INTRODUCCIÓN
 
 ## La idea del juego
 La idea del juego consiste en crear una pequeña fusión entre un Mario Kart y un Mario Galaxy. Es decir, utilizar el concepto de niveles en forma de mini planetas y generar zonas de gravedad alrededor de estos. El jugador recorrería con _karts_/vehículos los circuitos planteados en los distintos planetas propuestos y estos contarían con distintas ambientaciones.
@@ -45,6 +45,7 @@ Por otra parte, generaremos una animación para el kart principal (mayormente, e
     - Kenney - [Survival Kit](https://kenney.nl/assets/survival-kit)
     - Kenney - [Modular Buildings Kit](https://kenney.nl/assets/modular-buildings)
 
+    > [!NOTE]
     > La mayoría de los _assets_ de Kenney guardan mucha similitud en el estilo artístico, por lo que podemos utilizar todos estos assets y conservar un estilo concreto. Más específicamente, el estilo _low-poly_ que comentábamos en el anteproyecto.
 
 2. [Unity Assets Store](https://assetstore.unity.com/)
@@ -55,6 +56,7 @@ Por otra parte, generaremos una animación para el kart principal (mayormente, e
     - Chromisu - [Handpainted Grass & Ground Textures](https://assetstore.unity.com/packages/p/handpainted-grass-ground-textures-187634)
     - Pure Poly - [Free Low Poly Nature Forest](https://assetstore.unity.com/packages/3d/environments/landscapes/free-low-poly-nature-forest-205742)
 
+    > [!NOTE]
     > La mayoría de estos assets provienen de creadores distintos. Sin embargo, también guardan una estética similar y se adecúan a las necesidades de nuestro proyecto.
 
 ---
