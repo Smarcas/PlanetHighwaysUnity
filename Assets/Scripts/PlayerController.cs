@@ -6,7 +6,6 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private LayerMask groundMask;
     [SerializeField] private Transform groundCheck;
-    [SerializeField] private Transform _cam;
     //[SerializeField] private Animator animator;
     
     private float groundCheckRadius = 0.3f;

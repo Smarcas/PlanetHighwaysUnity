@@ -86,3 +86,13 @@ En este tutorial se explica cómo crear efectos visuales sencillos. En concreto,
 Es el tutorial oficial de los aassets con el mismo nombre. Permite conocer en profundidad como utilizar estos shaders.
 
 ---
+
+# OTROS ELEMENTOS DE INTERÉS
+
+Para conseguir que la cámara siguiese a nuestro personaje y respondiese a los ejes X e Y, ha sido necesario modificar las siguientes propiedades de una cámara CinemachineFreeLook:
+
+![Propiedades cámara](/readmeimg/configCinemachineCamera.png)
+
+---
+
+![Firma con mi nombre](/readmeimg/firma.png)
