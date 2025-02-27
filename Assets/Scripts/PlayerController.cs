@@ -40,10 +40,10 @@ public class PlayerController : MonoBehaviour
         isGrounded = Physics.CheckSphere(groundCheck.position, groundCheckRadius, groundMask);
         // animator.SetBool("isJumping", !isGrounded);
 
-        // if (Input.GetButtonDown("Jump") && isGrounded)
-        // {
+        //if (Input.GetButtonDown("Jump") && isGrounded)
+        //{
         //    playerRB.AddForce(-newGravity.GravityDirection * jumpForce, ForceMode.Impulse);
-        // }
+        //}
     }
     
     void FixedUpdate()
