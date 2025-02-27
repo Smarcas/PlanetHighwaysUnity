@@ -44,6 +44,7 @@ Por otra parte, generaremos una animación para el kart principal (mayormente, e
     - Kenney - [Watercraft Kit](https://kenney.nl/assets/watercraft-kit)
     - Kenney - [Survival Kit](https://kenney.nl/assets/survival-kit)
     - Kenney - [Modular Buildings Kit](https://kenney.nl/assets/modular-buildings)
+    - Kenney - [Space Station Kit](https://kenney.nl/assets/space-station-kit)
 
 > [!NOTE]
 > La mayoría de los _assets_ de Kenney guardan mucha similitud en el estilo artístico, por lo que podemos utilizar todos estos assets y conservar un estilo concreto. Más específicamente, el estilo _low-poly_ que comentábamos en el anteproyecto.
