@@ -45,6 +45,11 @@ Por otra parte, generaremos una animación para el kart principal (mayormente, e
     - Kenney - [Survival Kit](https://kenney.nl/assets/survival-kit)
     - Kenney - [Modular Buildings Kit](https://kenney.nl/assets/modular-buildings)
     - Kenney - [Space Station Kit](https://kenney.nl/assets/space-station-kit)
+    - Kenney - [Space Kit](https://kenney.nl/assets/space-kit)
+    - Kenney - [Graveyard Kit](https://kenney.nl/assets/graveyard-kit)
+    - Kenney - [Coaster Kit](https://kenney.nl/assets/coaster-kit)
+    - Kenney - [Pirate Kit](https://kenney.nl/assets/pirate-kit)
+    - Kenney - [City Kit (Commercial)](https://kenney.nl/assets/city-kit-commercial)
 
 > [!NOTE]
 > La mayoría de los _assets_ de Kenney guardan mucha similitud en el estilo artístico, por lo que podemos utilizar todos estos assets y conservar un estilo concreto. Más específicamente, el estilo _low-poly_ que comentábamos en el anteproyecto.
@@ -95,6 +100,10 @@ Es el tutorial oficial de los aassets con el mismo nombre. Permite conocer en pr
 Para conseguir que la cámara siguiese a nuestro personaje y respondiese a los ejes X e Y, ha sido necesario modificar las siguientes propiedades de una cámara CinemachineFreeLook:
 
 ![Propiedades cámara](/readmeimg/configCinemachineCamera.png)
+
+Por otro lado, toda la decoración del nivel se ha realizado a mano, tomando 1 a 1 los _assets_ y colocándolos para proporcionar una experiencia _low-poly_ tipo maqueta en miniatura.
+
+![Decoración a mano mostrada](/readmeimg/decorando1.png)
 
 ---
 
