@@ -95,15 +95,35 @@ Es el tutorial oficial de los aassets con el mismo nombre. Permite conocer en pr
 
 ---
 
-# OTROS ELEMENTOS DE INTERÉS
+# DIARIO SINTETIZADO Y OTROS ELEMENTOS DE INTERÉS
 
-Para conseguir que la cámara siguiese a nuestro personaje y respondiese a los ejes X e Y, ha sido necesario modificar las siguientes propiedades de una cámara CinemachineFreeLook:
+## **23 FEBRERO**
+- Comienza el proyecto
+
+## **24 FEBRERO**
+- Se adapta el sistema de gravedad personalizado
+
+## **25 FEBRERO**
+- Nuevo sistema de cámara: se añade una FreeLookCamera de Cinemachine, con la que podemos rotar la cámara.
+
+## **26-27 FEBRERO**
+- Actualización del sistema de cámara: para conseguir que la cámara siguiese a nuestro personaje y respondiese a los ejes X e Y, ha sido necesario modificar las siguientes propiedades de una cámara CinemachineFreeLook:
 
 ![Propiedades cámara](/readmeimg/configCinemachineCamera.png)
 
-Por otro lado, toda la decoración del nivel se ha realizado a mano, tomando 1 a 1 los _assets_ y colocándolos para proporcionar una experiencia _low-poly_ tipo maqueta en miniatura.
+- Comienza la decoración del nivel, que se realiza a mano, colocando 1 a 1 los _assets_ para proporcionar una experiencia _low-poly_ tipo maqueta en miniatura.
 
 ![Decoración a mano mostrada](/readmeimg/decorando1.png)
+
+- Modificación de la cámara para invertir el eje Y.
+
+## **1 MARZO**
+- Modificación de las propiedades de la cámara, determinando unos grados máximos en el eje Y, para limitar las posibilidades del jugador y evitar _clipping_.
+
+- Finalización del circuito, inclusión de meta y adición de las zonas de gravedad necesarias para la jugabilidad del circuito.
+
+![Circuito final con zonas de gravedad](/readmeimg/circuitoCompletado.png)
+
 
 ---
 
