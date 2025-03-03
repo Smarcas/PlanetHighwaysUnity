@@ -1,4 +1,4 @@
-# PROYECTO DE JUEGO EN UNITY
+# PLANET HIGHWAYS - PROYECTO DE JUEGO EN UNITY
 
 Repositorio que alberga el juego en Unity para la asignatura de Programación Multimedia y Dispositivos Móviles.
 
