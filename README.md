@@ -35,6 +35,14 @@ Por otra parte, generaremos una animación para el kart principal (mayormente, e
 
 # ENLACES A ASSETS Y OTROS RECURSOS
 
+## Font utilizada
+
+1. [Página Oficial de Fonts de Google](https://fonts.google.com/)
+    - Vernon Adams - [Sigmar Font](https://fonts.google.com/specimen/Sigmar)
+
+> [!NOTE]
+> Esta _font_ ha sido utilizada para el título del juego.
+
 ## Enlaces a los _assets_
 
 1. [Página Web Oficial de Kenney](https://kenney.nl/)
@@ -92,6 +100,10 @@ En este tutorial se explica cómo crear efectos visuales sencillos. En concreto,
 - Bitgem - [Unity URP Stylized Water Shader](https://www.youtube.com/watch?v=fHuN7WkrmsI&t)
 
 Es el tutorial oficial de los aassets con el mismo nombre. Permite conocer en profundidad como utilizar estos shaders.
+
+- Rigor Mortis Tortoise - [How to add Custom FONTS to Unity 2023 (Updated) | Unity Tutorial](https://www.youtube.com/watch?v=m6fJXzqfjYY)
+
+Tutorial utilizado para importar fonts distintas a la predeterminada en Unity.
 
 ---
 
