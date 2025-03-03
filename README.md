@@ -105,6 +105,10 @@ Es el tutorial oficial de los aassets con el mismo nombre. Permite conocer en pr
 
 Tutorial utilizado para importar fonts distintas a la predeterminada en Unity.
 
+- BravePixelG - [Cómo crear un menú inicial en Unity](https://www.youtube.com/watch?v=sJUBoFgO7Ng)
+
+Tutorial con el que añadir mayor funcionalidad al menú principal del juego.
+
 ---
 
 # DIARIO SINTETIZADO Y OTROS ELEMENTOS DE INTERÉS
