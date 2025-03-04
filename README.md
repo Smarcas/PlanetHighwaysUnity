@@ -169,6 +169,7 @@ En este tutorial se explica como crear un sistema de puntaje sencillo.
 
 - Añadido sistema de puntuación.
 - Añadidos assets de enemigos.
+- Añadido sistema de vida y reinicio de nivel con muerte.
 
 ---
 
