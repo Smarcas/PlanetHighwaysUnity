@@ -73,6 +73,13 @@ Por otra parte, generaremos una animación para el kart principal (mayormente, e
 > [!NOTE]
 > La mayoría de estos assets provienen de creadores distintos. Sin embargo, también guardan una estética similar y se adecúan a las necesidades de nuestro proyecto.
 
+3. [SketchFab](https://sketchfab.com/)
+
+    - FunkyTownky - [Lowpoly coins](https://sketchfab.com/3d-models/lowpoly-coins-6332d4c5b2b54e38ab1f0ed932fe81ae)
+
+> [!NOTE]
+> En este caso, solo hemos utilizado un asset, pero guarda la estética similar al resto de assets utilizados.
+
 ---
 
 ## Otras herramientas
@@ -109,6 +116,10 @@ Tutorial utilizado para importar fonts distintas a la predeterminada en Unity.
 
 Tutorial con el que añadir mayor funcionalidad al menú principal del juego.
 
+- Rehope Games - [How to Add MUSIC and SOUND EFFECTS to a Game in Unity | Unity 2D Platformer Tutorial #16](https://www.youtube.com/watch?v=N8whM1GjH4w&t)
+
+En este tutorial se explica cómo añadir música al juego, así como efectos de sonido y cómo utilizar un controlador de audio para separar música y SFX.
+
 ---
 
 # DIARIO SINTETIZADO Y OTROS ELEMENTOS DE INTERÉS
@@ -140,6 +151,13 @@ Tutorial con el que añadir mayor funcionalidad al menú principal del juego.
 
 ![Circuito final con zonas de gravedad](/readmeimg/circuitoCompletado.png)
 
+## **2-3 MARZO**
+
+- Añadido menú de inicio con varias opciones:
+    - Menú de niveles
+    - Menú de opciones
+    - Botón de salida
+- Añadido sonido y monedas al juego.
 
 ---
 
