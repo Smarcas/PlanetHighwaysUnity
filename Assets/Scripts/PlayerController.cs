@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerController : MonoBehaviour
 {
@@ -22,6 +23,10 @@ public class PlayerController : MonoBehaviour
     public bool isMoving = false;
     public bool isGrounded;
 
+    public UnityEvent<int> cambioVida;
+    public int vidaMaxima = 3;
+    public int vidaActual = 3;
+
     private Rigidbody playerRB;
     private Vector3 playerDirection;
 
@@ -32,6 +37,8 @@ public class PlayerController : MonoBehaviour
         groundMask = LayerMask.GetMask("Ground");
         playerRB = transform.GetComponent<Rigidbody>();
         newGravity = transform.GetComponent<GravityBody>();
+        vidaActual = vidaMaxima;
+        cambioVida.Invoke(vidaActual);
     }
 
     void Update()
@@ -44,6 +51,9 @@ public class PlayerController : MonoBehaviour
         //{
         //    playerRB.AddForce(-newGravity.GravityDirection * jumpForce, ForceMode.Impulse);
         //}
+        if (Input.GetKeyDown(KeyCode.H)) {
+            perderVida();
+        }
     }
     
     void FixedUpdate()
@@ -104,5 +114,19 @@ public class PlayerController : MonoBehaviour
         }
 
         // animator.SetBool("isMoving", isMoving && currentSpeed > 0);
+    }
+
+    public void perderVida() {
+        if (vidaActual > 0) {
+            vidaActual--;
+        }
+        cambioVida.Invoke(vidaActual);
+    }
+
+    public void curarVida() {
+        if (vidaActual < vidaMaxima) {
+            vidaActual++;
+        }
+        cambioVida.Invoke(vidaActual);
     }
 }

@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class PlanetCoinRotation : MonoBehaviour
+public class PlanetRotation : MonoBehaviour
 {
     // Velocidad de rotación en grados por segundo
     public float rotationSpeed = 2f;
@@ -10,7 +10,6 @@ public class PlanetCoinRotation : MonoBehaviour
     {
         // Hacemos que el planeta rote todo el rato sobre si mismo
         transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime, Space.Self);
-        
     }
 }
 

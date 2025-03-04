@@ -69,6 +69,8 @@ Por otra parte, generaremos una animación para el kart principal (mayormente, e
     - Bitgem - [URP Stylized Water Shader - Proto Series](https://assetstore.unity.com/packages/vfx/shaders/urp-stylized-water-shader-proto-series-187485)
     - Chromisu - [Handpainted Grass & Ground Textures](https://assetstore.unity.com/packages/p/handpainted-grass-ground-textures-187634)
     - Pure Poly - [Free Low Poly Nature Forest](https://assetstore.unity.com/packages/3d/environments/landscapes/free-low-poly-nature-forest-205742)
+    - Dungeon Mason - [RPG Monster Duo PBR Polyart](https://assetstore.unity.com/packages/3d/characters/creatures/rpg-monster-duo-pbr-polyart-157762)
+    - MR3_2004 - [Heart in pixel](https://assetstore.unity.com/packages/2d/gui/icons/heart-in-pixel-287862)
 
 > [!NOTE]
 > La mayoría de estos assets provienen de creadores distintos. Sin embargo, también guardan una estética similar y se adecúan a las necesidades de nuestro proyecto.
@@ -120,6 +122,10 @@ Tutorial con el que añadir mayor funcionalidad al menú principal del juego.
 
 En este tutorial se explica cómo añadir música al juego, así como efectos de sonido y cómo utilizar un controlador de audio para separar música y SFX.
 
+- BravePixelG - [Cómo crear un puntaje en Unity (Sistema de puntos)](https://www.youtube.com/watch?v=j_WevuGeTmg)
+
+En este tutorial se explica como crear un sistema de puntaje sencillo.
+
 ---
 
 # DIARIO SINTETIZADO Y OTROS ELEMENTOS DE INTERÉS
@@ -158,6 +164,11 @@ En este tutorial se explica cómo añadir música al juego, así como efectos de
     - Menú de opciones
     - Botón de salida
 - Añadido sonido y monedas al juego.
+
+## **4 MARZO**
+
+- Añadido sistema de puntuación.
+- Añadidos assets de enemigos.
 
 ---
 
