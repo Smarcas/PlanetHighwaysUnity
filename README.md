@@ -124,7 +124,11 @@ En este tutorial se explica cómo añadir música al juego, así como efectos de
 
 - BravePixelG - [Cómo crear un puntaje en Unity (Sistema de puntos)](https://www.youtube.com/watch?v=j_WevuGeTmg)
 
-En este tutorial se explica como crear un sistema de puntaje sencillo.
+En este tutorial se explica como crear un sistema de puntaje sencillo. Aunque hemos tenido que modificar varios elementos.
+
+- BravePixelG - [Cómo crear un sistema de vida con corazones en la pantalla en Unity](https://www.youtube.com/watch?v=qf0mJI5fRUQ)
+
+En este tutorial se explica como crear un sistema de vida complejo. Sin embargo, solo hemos tomado algunas ideas, ya que no se explica como crear el sistema de muerte y el sistema de pérdida y recuperación de vida era demasiado complejo para nuestras necesidades.
 
 ---
 
