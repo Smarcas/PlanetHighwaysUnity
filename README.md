@@ -176,6 +176,12 @@ En este tutorial se explica como crear un sistema de vida complejo. Sin embargo,
 - Añadido sistema de vida y reinicio de nivel con muerte.
 - Añadida animación enemigos, rebote al colisionar, muerte del enemigo y pérdida de vida.
 
+## **4 MARZO**
+
+- Modificado los enemigos para que roten sobre su propio eje Y al estar inclinados en la superficie del mundo:
+
+![Rotación enemigos](/readmeimg/giroEnemigos.gif)
+
 ---
 
 ![Firma con mi nombre](/readmeimg/firma.png)
