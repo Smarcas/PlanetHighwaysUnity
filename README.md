@@ -72,6 +72,7 @@ Por otra parte, generaremos una animación para el kart principal (mayormente, e
     - Dungeon Mason - [RPG Monster Duo PBR Polyart](https://assetstore.unity.com/packages/3d/characters/creatures/rpg-monster-duo-pbr-polyart-157762)
     - MR3_2004 - [Heart in pixel](https://assetstore.unity.com/packages/2d/gui/icons/heart-in-pixel-287862)
     - Game Sound Solutions - [8 Bits Elements](https://assetstore.unity.com/packages/audio/sound-fx/8-bits-elements-16848)
+    - SwishSwoosh - [Free UI Click Sound Pack](https://assetstore.unity.com/packages/audio/sound-fx/free-ui-click-sound-pack-244644)
 
 > [!NOTE]
 > La mayoría de estos assets provienen de creadores distintos. Sin embargo, también guardan una estética similar y se adecúan a las necesidades de nuestro proyecto.
@@ -184,6 +185,8 @@ En este tutorial se explica como crear un sistema de vida complejo. Sin embargo,
 ![Rotación enemigos](/readmeimg/giroEnemigos.gif)
 
 - Añadido control de sonidos SFX y audio a monedas al recogerlas.
+
+- Añadida muerte por salida de nivel y sonido de muerte.
 
 ---
 

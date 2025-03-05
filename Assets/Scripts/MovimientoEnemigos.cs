@@ -10,15 +10,17 @@ public class MovimientoEnemigos : MonoBehaviour
     private bool enEspera = false; 
     private float tiempoGiro = 2f; 
 
-    public Animator animator; 
-    public PlayerController jugador; 
-    public GameObject pantallaRoja; 
+    public Animator animator;
+    public PlayerController jugador;
+    public GameObject pantallaRoja;
 
-    private bool detenido = false; 
+    private bool detenido = false;
+    public AudioManager audioManager;
 
     void Start()
     {
         animator = GetComponent<Animator>();
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         transform.position = puntoA.position;
     }
 
@@ -68,6 +70,7 @@ public class MovimientoEnemigos : MonoBehaviour
         {
             jugador.perderVida();
             animator.SetBool("muerto", true);
+            audioManager.PlaySFX(audioManager.carHit);
             StartCoroutine(EfectoMuerte(other.gameObject));
             detenido = true;
         }

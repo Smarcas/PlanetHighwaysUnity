@@ -14,9 +14,11 @@ public class SistemaVida : MonoBehaviour
     public int vidaActual = 3;
     public GameObject pantallaMuerte;
     public float tiempoEsperaMuerte = 3f;
+    public AudioManager audioManager;
 
     private void Start()
     {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         jugador.cambioVida.AddListener(ActualizarVida);
         ActualizarVida(jugador.vidaActual);
     }
@@ -46,6 +48,7 @@ public class SistemaVida : MonoBehaviour
     public void Morir()
     {
         pantallaMuerte.SetActive(true);
+        audioManager.PlaySFX(audioManager.deathSound);
         StartCoroutine(ReiniciarNivel());
     }
 
