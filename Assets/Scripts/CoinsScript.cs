@@ -6,6 +6,12 @@ public class CoinsScript : MonoBehaviour
     [SerializeField] private float rotationSpeed = 20f;
     [SerializeField] private float cantPuntos = 100f;
     [SerializeField] private Puntuacion puntuacion;
+    [SerializeField] private AudioManager audioManager;
+
+    void Start()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
 
     void Update()
     {
@@ -17,6 +23,7 @@ public class CoinsScript : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            audioManager.PlaySFX(audioManager.coinSound);
             puntuacion.SumarPuntos(cantPuntos);
             Destroy(gameObject);
         }

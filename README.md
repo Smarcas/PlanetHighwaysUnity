@@ -71,6 +71,7 @@ Por otra parte, generaremos una animación para el kart principal (mayormente, e
     - Pure Poly - [Free Low Poly Nature Forest](https://assetstore.unity.com/packages/3d/environments/landscapes/free-low-poly-nature-forest-205742)
     - Dungeon Mason - [RPG Monster Duo PBR Polyart](https://assetstore.unity.com/packages/3d/characters/creatures/rpg-monster-duo-pbr-polyart-157762)
     - MR3_2004 - [Heart in pixel](https://assetstore.unity.com/packages/2d/gui/icons/heart-in-pixel-287862)
+    - Game Sound Solutions - [8 Bits Elements](https://assetstore.unity.com/packages/audio/sound-fx/8-bits-elements-16848)
 
 > [!NOTE]
 > La mayoría de estos assets provienen de creadores distintos. Sin embargo, también guardan una estética similar y se adecúan a las necesidades de nuestro proyecto.
@@ -176,11 +177,13 @@ En este tutorial se explica como crear un sistema de vida complejo. Sin embargo,
 - Añadido sistema de vida y reinicio de nivel con muerte.
 - Añadida animación enemigos, rebote al colisionar, muerte del enemigo y pérdida de vida.
 
-## **4 MARZO**
+## **5 MARZO**
 
 - Modificado los enemigos para que roten sobre su propio eje Y al estar inclinados en la superficie del mundo:
 
 ![Rotación enemigos](/readmeimg/giroEnemigos.gif)
+
+- Añadido control de sonidos SFX y audio a monedas al recogerlas.
 
 ---
 

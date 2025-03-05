@@ -7,10 +7,16 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AudioSource SFXSource;
     [Header("Clips de audio")]
     public AudioClip background;
+    public AudioClip coinSound;
 
     private void Start()
     {
         musicSource.clip = background;
         musicSource.Play();
+    }
+
+    public void PlaySFX(AudioClip clip)
+    {
+        SFXSource.PlayOneShot(clip);
     }
 }
