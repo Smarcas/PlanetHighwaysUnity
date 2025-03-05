@@ -174,6 +174,7 @@ En este tutorial se explica como crear un sistema de vida complejo. Sin embargo,
 - Añadido sistema de puntuación.
 - Añadidos assets de enemigos.
 - Añadido sistema de vida y reinicio de nivel con muerte.
+- Añadida animación enemigos, rebote al colisionar, muerte del enemigo y pérdida de vida.
 
 ---
 
