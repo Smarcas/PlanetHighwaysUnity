@@ -12,6 +12,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip coinSound;
     public AudioClip carHit;
     public AudioClip deathSound;
+    public AudioClip victorySound;
 
     private void Start()
     {

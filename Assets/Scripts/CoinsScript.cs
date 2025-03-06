@@ -5,7 +5,7 @@ public class CoinsScript : MonoBehaviour
     // Velocidad de rotación en grados por segundo
     [SerializeField] private float rotationSpeed = 20f;
     [SerializeField] private float cantPuntos = 100f;
-    [SerializeField] private Puntuacion puntuacion;
+    [SerializeField] public Puntuacion puntuacion;
     [SerializeField] private AudioManager audioManager;
 
     void Start()

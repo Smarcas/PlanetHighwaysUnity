@@ -188,6 +188,12 @@ En este tutorial se explica como crear un sistema de vida complejo. Sin embargo,
 
 - Añadida muerte por salida de nivel y sonido de muerte.
 
+## **6 MARZO**
+
+- Añadido menú de pausa (aunque no pausa el juego todavía).
+
+- Añadida lógica de victoria y pantalla de victoria con recogida de estadísticas al superar el nivel.
+
 ---
 
 ![Firma con mi nombre](/readmeimg/firma.png)

@@ -4,7 +4,7 @@ using System.Threading;
 
 public class Puntuacion : MonoBehaviour
 {
-    private float puntos;
+    public float puntos;
     private float tiempo;
     private TextMeshProUGUI texto;
     // Start is called once before the first execution of Update after the MonoBehaviour is created

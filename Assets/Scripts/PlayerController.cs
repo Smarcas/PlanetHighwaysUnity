@@ -31,6 +31,8 @@ public class PlayerController : MonoBehaviour
     private Vector3 playerDirection;
 
     private GravityBody newGravity;
+    public GameObject menuPausa;
+    public bool menuPausaActivo = false;
     
     void Start()
     {
@@ -51,8 +53,11 @@ public class PlayerController : MonoBehaviour
         //{
         //    playerRB.AddForce(-newGravity.GravityDirection * jumpForce, ForceMode.Impulse);
         //}
-        if (Input.GetKeyDown(KeyCode.H)) {
-            perderVida();
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            menuPausaActivo = !menuPausaActivo;
+            menuPausa.SetActive(menuPausaActivo);
         }
     }
     
