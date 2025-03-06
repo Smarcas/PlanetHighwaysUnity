@@ -74,7 +74,7 @@ public class PlayerController : MonoBehaviour
 
         // Lógica de aceleración y frenado
         // Si presionamos la W, aceleramos hacia delante, si presionamos la S, va hacia atrás, con una serie de condiciones:
-        if (isMoving && Input.GetKey(KeyCode.W))
+        if (isMoving && (Input.GetKey(KeyCode.W) || Input.GetAxis("Fire1") > 0.1f))
         {
             if (!isMovingForward)
             {
@@ -87,7 +87,7 @@ public class PlayerController : MonoBehaviour
                 isMovingForward = true;
             }
         }
-        else if (isMoving && Input.GetKey(KeyCode.S))
+        else if (isMoving && (Input.GetKey(KeyCode.S) || Input.GetAxis("Fire2") > 0.1f))
         {
             if (isMovingForward)
             {
