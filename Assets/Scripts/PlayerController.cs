@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
@@ -74,7 +75,7 @@ public class PlayerController : MonoBehaviour
 
         // Lógica de aceleración y frenado
         // Si presionamos la W, aceleramos hacia delante, si presionamos la S, va hacia atrás, con una serie de condiciones:
-        if (isMoving && (Input.GetKey(KeyCode.W) || Input.GetAxis("Fire1") > 0.1f))
+        if (isMoving && (Input.GetKey(KeyCode.W) || Gamepad.current.rightTrigger.ReadValue() > 0.1f))
         {
             if (!isMovingForward)
             {
@@ -87,7 +88,7 @@ public class PlayerController : MonoBehaviour
                 isMovingForward = true;
             }
         }
-        else if (isMoving && (Input.GetKey(KeyCode.S) || Input.GetAxis("Fire2") > 0.1f))
+        else if (isMoving && (Input.GetKey(KeyCode.S) || Gamepad.current.leftTrigger.ReadValue() > 0.1f))
         {
             if (isMovingForward)
             {
