@@ -5,11 +5,6 @@ using UnityEngine.Events;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private LayerMask groundMask;
-    [SerializeField] private Transform groundCheck;
-    //[SerializeField] private Animator animator;
-    
-    private float groundCheckRadius = 0.3f;
     public float currentSpeed = 0f;
     public float maxSpeed = 13f;
     public float minSpeed = 0f;
@@ -21,7 +16,6 @@ public class PlayerController : MonoBehaviour
     public float jumpForce = 500f;
     public bool isMovingForward = true;
     public bool isMoving = false;
-    public bool isGrounded;
 
     public UnityEvent<int> cambioVida;
     public int vidaMaxima = 3;
@@ -36,7 +30,6 @@ public class PlayerController : MonoBehaviour
     
     void Start()
     {
-        groundMask = LayerMask.GetMask("Ground");
         playerRB = transform.GetComponent<Rigidbody>();
         newGravity = transform.GetComponent<GravityBody>();
         vidaActual = vidaMaxima;
@@ -46,13 +39,6 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         playerDirection = new Vector3(Input.GetAxisRaw("Horizontal"), 0f, Input.GetAxisRaw("Vertical")).normalized;
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundCheckRadius, groundMask);
-        // animator.SetBool("isJumping", !isGrounded);
-
-        //if (Input.GetButtonDown("Jump") && isGrounded)
-        //{
-        //    playerRB.AddForce(-newGravity.GravityDirection * jumpForce, ForceMode.Impulse);
-        //}
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
@@ -74,7 +60,7 @@ public class PlayerController : MonoBehaviour
 
         // Lógica de aceleración y frenado
         // Si presionamos la W, aceleramos hacia delante, si presionamos la S, va hacia atrás, con una serie de condiciones:
-        if (isMoving && (Input.GetKey(KeyCode.W) || Input.GetAxis("Fire1") > 0.1f))
+        if (isMoving && Input.GetKey(KeyCode.W))
         {
             if (!isMovingForward)
             {
@@ -87,7 +73,7 @@ public class PlayerController : MonoBehaviour
                 isMovingForward = true;
             }
         }
-        else if (isMoving && (Input.GetKey(KeyCode.S) || Input.GetAxis("Fire2") > 0.1f))
+        else if (isMoving && Input.GetKey(KeyCode.S))
         {
             if (isMovingForward)
             {
@@ -117,8 +103,6 @@ public class PlayerController : MonoBehaviour
             Quaternion newRotation = Quaternion.Slerp(playerRB.rotation, playerRB.rotation * rightDirection, Time.fixedDeltaTime * 3f);
             playerRB.MoveRotation(newRotation);
         }
-
-        // animator.SetBool("isMoving", isMoving && currentSpeed > 0);
     }
 
     public void perderVida() {

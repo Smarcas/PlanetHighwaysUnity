@@ -43,6 +43,23 @@ No se garantiza que puedas modificar o utilizar este juego con versiones anterio
 
 ---
 
+# CONTROLES
+
+Por defecto, los controles que admitirá el juego serán:
+
+| Tecla      | Acción                    |
+|------------|---------------------------|
+| W          | Acelerar                  |
+| S          | Frenar                    |
+| A          | Girar a la izquierda      |
+| D          | Girar a la derecha        |
+| Ratón      | Mover la cámara           |
+| 5          | Cambiar de cámara         |
+| Escape     | Abrir menú de pausa       |
+
+
+---
+
 # ENLACES A ASSETS Y OTROS RECURSOS
 
 ## Font utilizada
@@ -203,6 +220,12 @@ En este tutorial se explica como crear un sistema de vida complejo. Sin embargo,
 - Añadido menú de pausa (aunque no pausa el juego todavía).
 
 - Añadida lógica de victoria y pantalla de victoria con recogida de estadísticas al superar el nivel.
+
+## **7-8 MARZO**
+
+- Resolución de bug que no permitía que el personaje se adaptará a la gravedad necesaria.
+
+- Eliminación del input a través de mando y vuelta a commit anterior debido al bug mencionado.
 
 ---
 

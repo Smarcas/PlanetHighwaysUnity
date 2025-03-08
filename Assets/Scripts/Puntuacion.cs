@@ -7,13 +7,12 @@ public class Puntuacion : MonoBehaviour
     public float puntos;
     private float tiempo;
     private TextMeshProUGUI texto;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    
     void Start()
     {
         texto = GetComponent<TextMeshProUGUI>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         // Cada segundo que pasa, sumamos 1 a tiempo
