@@ -37,9 +37,26 @@ Por otra parte, generaremos una animación para el kart principal (mayormente, e
 
 Para jugar al juego, tan solo hay que abrir la carpeta ejecutable y ahcer doble clic en "PlanetHighways.exe". En principio, no debería ser necesario instalar ningún otro elemento o herramienta.
 
-Por otro lado, si lo que quieres es modificar este juego, tendrás que clonar este repositorio y abrir la carpeta resultante como un proyecto de Unity en su editor. Nosotros hemos usado la versión 6000.0.34f1, por lo que debería de funcionar a partir de esta versión y en versiones superiores cómo mínimo.
+Por otro lado, si lo que quieres es modificar este juego, tendrás que clonar este repositorio y abrir la carpeta resultante como un proyecto de Unity en su editor. Nosotros hemos usado la versión `6000.0.34f1`, por lo que debería de funcionar a partir de esta versión y en versiones superiores cómo mínimo.
 
-No se garantiza que puedas modificar o utilizar este juego con versiones anteriores de Unity.
+Para hacer esto, abrimos una consola de comandos de git bash y:
+
+1. Insertamos el siguiente comando:
+
+``` bash
+    git clone https://github.com/Smarcas/PlanetHighwaysUnity.git
+```
+
+2. Abrimos Unity Hub y clicamos en la siguiente opción:
+
+![Importar proyecto](/readmeimg/UnityHub.png)
+
+3.Buscamos la ruta de la carpeta en su selector de archivos y la abrimos.
+
+4. Hacemos doble clic en el proyecto y esperamos (pacientemente) a que termine de importar todos los _assets_ y el proyecto completo.
+
+> [!NOTE]
+> No se garantiza que puedas modificar o utilizar este juego con versiones anteriores a `6000.0.34f1` de Unity Editor.
 
 ---
 
