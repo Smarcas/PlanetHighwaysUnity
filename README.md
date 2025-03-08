@@ -33,6 +33,16 @@ Por otra parte, generaremos una animación para el kart principal (mayormente, e
 
 ---
 
+# CÓMO INICIAR EL JUEGO
+
+Para jugar al juego, tan solo hay que abrir la carpeta ejecutable y ahcer doble clic en "PlanetHighways.exe". En principio, no debería ser necesario instalar ningún otro elemento o herramienta.
+
+Por otro lado, si lo que quieres es modificar este juego, tendrás que clonar este repositorio y abrir la carpeta resultante como un proyecto de Unity en su editor. Nosotros hemos usado la versión 6000.0.34f1, por lo que debería de funcionar a partir de esta versión y en versiones superiores cómo mínimo.
+
+No se garantiza que puedas modificar o utilizar este juego con versiones anteriores de Unity.
+
+---
+
 # ENLACES A ASSETS Y OTROS RECURSOS
 
 ## Font utilizada
